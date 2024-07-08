@@ -232,7 +232,17 @@ Remediating vulnerabilities
 - Run Windows updates
 - After it installs, restart
 - Go back into your Nessus scanner and do another scan; most of the vulnerabilities we observe should be removed, comparing previous scans from before and to the current one
-- 
+
+<br />
+<br />
+<img src="https://imgur.com/G8ZxNGg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Remarks/Thoughts
+
+- That's pretty much it. I'll continue experimenting and getting more familiar with the tools with time and practice.
+- I might try outdated software or operating systems installs and see what kind of scan results I could get from Nessus.
+- I now have a basic idea of scanning and remediating using Nessus and VM's; I'm sure in larger organizations it'll expand further like having scheduled scans and priotizing strictly on high and critical vulnerability scans.
+
 
 
 
