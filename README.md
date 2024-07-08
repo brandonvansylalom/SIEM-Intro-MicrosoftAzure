@@ -88,4 +88,63 @@ Now, we will install Windows 10 on the VM.
 <br />
 <img src="https://imgur.com/Qa3lO4K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Once Windows VM finishes, use the following:
+
+- US Region (or whatever your locality you are based out of it)
+- US keyboard (or whatever you like/locality)
+- Skip adding a second layout
+- Offline account
+- Make it admin, any password you can remember
+- Security Questions are up to you on your answer
+- Accept or uncheck doesn't matter
+- Not now for Cortana
+- Once done, with both the VM and Nessus setup, you should be here:
+<br />
+<br />
+<img src="https://imgur.com/RVxs3aA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/xsK6oNW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Now we'll get into doing some basic scans first.
+
+- Go the VM
+- Go to Command Prompt and type in ipconfig
+- Grab the IP from your VM and ping it from YOUR workstation
+- x.x.x.x -t
+<br />
+<br />
+<img src="https://imgur.com/ksfQZ6L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- We will go back to the VM and disable some features on the firewall
+- Go to your VM, Type here to search on the desktop page task bar, type wf.msc
+- Select Windows Defender Firewall Properties
+- For the first THREE tabs of that property, turn the firewall state to OFF
+<br />
+<br />
+<img src="https://imgur.com/Rst3PS9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- Hit Ok and go back to the command prompt on YOUR workstation
+- You will now see replies from the ping due to us turning off the firewall on the VM
+<br />
+<br />
+<img src="https://imgur.com/bBJxtq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Head to your Nessus scanner webpage.
+
+- We will do basic network scan
+- Select create a new scan, basic network scan, and enter the following in:
+- Use the IP address of the VM
+<br />
+<br />
+<img src="https://imgur.com/FfeCGQh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- Once saved, it'll be on your My Scans page. It won't run unless you schedule it to or press play/run
+- Press the play button on the right side to run it
+- It will now scan our VM for activities/vulnerabilities and it'll take a moment to finish as well
+
+
+
+
+
+
+
 
