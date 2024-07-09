@@ -1,7 +1,7 @@
 <h1>Vulnerability Management - Introduction/Entry Level Project using Nessus</h1>
 
 <h2>Description</h2>
-This is a project/lab aimed at understanding vulnerability management. Vulnerability management is the practice of identifying, analyzing and mitigating any vulnerabilities of software within an IT environment. It is an essential area of focus within cybersecurity for safeguarding computer and networks from potential attackers or threat actors that could leverage vulnerabilities to their advantage. I will be using Josh Madakor's tutorial on YouTube to guide me in this project so I can familiar and hands-on with vulnerability management and the tools used.
+This is a project/lab aimed at understanding vulnerability management. Vulnerability management is the practice of identifying, analyzing and mitigating any vulnerabilities of software within an IT environment. It is an essential area of focus within cybersecurity for safeguarding computers and networks from potential attackers or threat actors that could leverage vulnerabilities to their advantage. I will be using Josh Madakor's tutorial on YouTube to guide me in this project so I can familiar and hands-on with vulnerability management and the tools used.
 
 <br>
 <br/>
